@@ -1,6 +1,7 @@
 let btn = document.getElementById('miboton');
 
 btn.addEventListener('click', function() {
+    event.stopPropagation();
     alert('Hola!');
     });
 
